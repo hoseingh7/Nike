@@ -1,7 +1,9 @@
+import { Banner } from "./homeComponent/banner-in-header/Banner";
+
 export const Home = () => {
   return (
-    <div>
-      <h1>home page</h1>
+    <div className="flex flex-col">
+      <Banner />
     </div>
   );
 };
