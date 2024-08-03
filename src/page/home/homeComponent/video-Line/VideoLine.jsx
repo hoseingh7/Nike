@@ -1,14 +1,13 @@
-// import vid from "../../../../images/video/segment0.ts";
-// import vid from "../../../../images/video/";
-// import cids from '../../../../images/'
-import com from "../../../../images/video/image.jpeg";
+// import com from "../../../../images/video/image.jpeg";
+import vid from "../../../../images/video/segment0.mp4";
+
 export const VideoLine = () => {
   return (
     <div className="w-full flex flex-col gap-4 pb-36">
       {/* div for vide */}
-      <div className="">
-        {/* <video src={vid} loop></video> */}
-        <img src={com} alt="" />
+      <div className=" w-full">
+        <video src={vid} loop autoPlay className="w-full"></video>
+        {/* <img src={com} alt="" /> */}
       </div>
       {/* div for bottom line  */}
       <div className="flex flex-col items-center justify-between gap-6">
