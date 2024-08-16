@@ -3,6 +3,7 @@ import { SiNike } from "react-icons/si";
 import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { BsBag } from "react-icons/bs";
+import MegaMenu from "./Mega-Menu/MegaMenu";
 
 export const Header = () => {
   return (
@@ -45,17 +46,18 @@ export const Header = () => {
 
       {/* bottom header */}
 
-      <div className="flex justify-between items-center px-10">
+      <div className="flex justify-between items-center px-10 relative">
         <div>
           <SiNike className="w-[80px] h-[80px]" />
         </div>
         <div className="flex items-center gap-3 font-bold text-lg">
-          <p>New & Featured</p>
+          {/* <p>New & Featured</p>
           <p>Men</p>
           <p>Women</p>
           <p>Kide</p>
           <p>Jordan</p>
-          <p>Sale</p>
+          <p>Sale</p> */}
+          <MegaMenu />
         </div>
         <div className="flex items-center gap-3">
           <CiSearch className="w-9 h-9" />
