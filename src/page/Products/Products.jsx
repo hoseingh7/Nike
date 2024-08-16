@@ -9,7 +9,7 @@ export const Products = () => {
     setShowFilters(!showFilters);
   };
   return (
-    <div className="flex flex-col pb-36">
+    <div className="flex flex-col pb-36 mx-auto">
       <Slider />
 
       <TopBtn
