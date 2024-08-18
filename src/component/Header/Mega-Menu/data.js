@@ -5,7 +5,7 @@ export const menus = [
       {
         title: " Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
@@ -49,7 +49,7 @@ export const menus = [
       {
         title: "Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
@@ -114,32 +114,16 @@ export const menus = [
           "Socks",
         ],
       },
-      {
-        title: "Shop by Sport",
-        items: [
-          "Basketball",
-          "Running",
-          "Golf",
-          "Soccer",
-          "Training & Gym",
-          "Tennis",
-          "Baseball",
-          "Football",
-          "Trail Running",
-          "Swimming",
-          "Pickleball",
-          "Fan Gear",
-        ],
-      },
     ],
   },
+  // women
   {
     title: "Women",
     subMenus: [
       {
         title: " Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
@@ -177,13 +161,14 @@ export const menus = [
       },
     ],
   },
+  // kids
   {
     title: "Kids",
     subMenus: [
       {
         title: " Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
@@ -221,13 +206,14 @@ export const menus = [
       },
     ],
   },
+  // jordan
   {
     title: "Jordan",
     subMenus: [
       {
         title: " Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
@@ -265,13 +251,14 @@ export const menus = [
       },
     ],
   },
+  // sale
   {
     title: "Sale",
     subMenus: [
       {
         title: " Get Set for School",
         items: [
-          "Extra 25% Off: New Styles Added",
+          "Extra 25% Off",
           "Shop the Collection",
           "Shopping Guide",
           "Bags & Backpacks",
