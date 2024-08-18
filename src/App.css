@@ -23,7 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.boxImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.boxImg:hover {
+  width: 110%;
+  height: 110%;
+  transform: translateY(-5%);
+}
 .App-link {
   color: #61dafb;
 }
