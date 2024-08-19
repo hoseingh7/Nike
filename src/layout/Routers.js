@@ -4,17 +4,20 @@ import { Header } from "../component/Header/Header";
 import { Footer } from "../component/Footer/Footer";
 import { Products } from "../page/Products/Products";
 import { ProductInfo } from "../page/Product-info/ProductInfo";
+import { Landing } from "../page/landing/Landing";
+import { Layout } from "./Layout";
 
 export const Routers = () => {
   return (
     <BrowserRouter>
-      <Header />
       <Routes>
-        <Route element={<Home />} path="/" />
-        <Route element={<Products />} path="/products" />
-        <Route element={<ProductInfo />} path="/pro-info" />
+        <Route path="/landing" element={<Landing />} />
+        <Route element={<Layout />}>
+          <Route element={<Home />} path="/" />
+          <Route element={<Products />} path="/products" />
+          <Route element={<ProductInfo />} path="/pro-info" />
+        </Route>
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 };
