@@ -12,8 +12,8 @@ import four from "../../../../../images/nike-just-do-it (10).jpg";
 import five from "../../../../../images/nike-just-do-it (11).jpg";
 import six from "../../../../../images/nike-just-do-it (12).jpg";
 
+// import swiperStyles from "./slider.module.css";
 import "./slider.css";
-
 export const Slider = () => {
   const [swiperRef, setSwiperRef] = useState(null);
   const dataSlider = [
@@ -56,7 +56,8 @@ export const Slider = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper w-full h-full"
+        style={{ width: "100%" }}
       >
         {dataSlider.map((item, index) => (
           <SwiperSlide key={index}>
