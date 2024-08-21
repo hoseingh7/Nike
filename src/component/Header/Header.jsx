@@ -51,12 +51,6 @@ export const Header = () => {
           <SiNike className="w-[80px] h-[80px]" />
         </div>
         <div className="flex items-center gap-3 font-bold text-lg">
-          {/* <p>New & Featured</p>
-          <p>Men</p>
-          <p>Women</p>
-          <p>Kide</p>
-          <p>Jordan</p>
-          <p>Sale</p> */}
           <MegaMenu />
         </div>
         <div className="flex items-center gap-3">

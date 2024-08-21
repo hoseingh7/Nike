@@ -6,7 +6,7 @@ import { Landing } from "../page/landing/Landing";
 import { Layout } from "./Layout";
 import { Dashboard } from "../Dashboard/Dashboard";
 import { Main } from "../Dashboard/Page-in-Dashboard/Main";
-import { ProductsDash } from "../Dashboard/Page-in-Dashboard/ProductsDash";
+import { ProductsDash } from "../Dashboard/Page-in-Dashboard/products-in-dashboard/ProductsDash";
 import { Order } from "../Dashboard/Page-in-Dashboard/Order";
 import { Analytics } from "../Dashboard/Page-in-Dashboard/Analytics";
 import { Customers } from "../Dashboard/Page-in-Dashboard/Customers";
