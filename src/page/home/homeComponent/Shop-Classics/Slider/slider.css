@@ -4,6 +4,10 @@
   align-items: center;
   text-align: center;
 }
+.mySwiper {
+  width: 100%;
+  height: 100%;
+}
 
 .slider-image {
   width: 100%;
